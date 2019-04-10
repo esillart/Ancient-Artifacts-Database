@@ -1,0 +1,156 @@
+Comments: 
+
+How many artifacts each?
+
+
+
+50 each for a total of 150? We'll see how long it takes for each artifact.
+(currently thinking 20 artifacts each... or 60 total)
+
+
+Should we change cursed to supernatural?
+
+
+
+
+
+MISCELLANEOUS: 
+
+For the cover picture, use a Japanese Kokeshi Doll from the Edo period (1600-1868), as Nintendo's Miis were inspired by Kokeshi Dolls in terms of their shapes
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+WEBSITES:
+
+https://moa.wfu.edu/#    
+(^This is the Museum of Anthropology from Wake Forrest Universsity, provides an extensive database + artifact of the month )
+
+https://prod.wp.cdn.aws.wfu.edu/sites/88/2012/04/Culture_by_Country_in_Online_Database.pdf
+(^This is a chart of Countries + cultures of the countries conveniently provided from WFU) 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Each artifact should include info on:
+Discovery table: [who discovered;where discovered;date discovered; what discovered(name); found or not]
+Artifact table: [artifact name, location found, museum name (if held), saleID(if for sale), cursed status]
+Civilization table: [location, name, era]
+Museum table: [museum name,  # of artifacts, museum type, location]
+
+Current artifact count: 8
+
+
+CONTINENTS:
+
+ASIA:
+*country: 
+-Japan:
+   >Kokeshi Dolls 
+    	[Timeline: Edo Period(1600-1868)] 
+	[civilization: was ruled by Tokuwaga shogunate]
+	[Origin Location: Tohoku region (northern region)][Most dominant "Naruko" style from Miyagi Prefecture]
+	[Museum: Traditional dolls once held at Museum of Anthropology at WFU in Winston Salem, NC for short period of time]
+	[^not for sale, from a preservation museum]
+	[Also a museum in Japan called Japanese Kokeshi Museum,Naruko Onsen where they have traditional and contemporary dolls]
+	[^these would be for sale, from private for-profit museum(artifacts are for sale but are contemporary)]
+	[Cursed: No]
+	[Website: https://moa.wfu.edu/2018/03/japanese-kokeshi-dolls/]
+
+- Philippines:
+   > Bontoc Axe
+	[Timeline: early 20th century]
+	[Civilization: Bontoc people/civilization]
+	[Origin location: highlands of Luzon (largest and most populous Philippine island)]
+	[Museum: on exhibit in student-curated mini-exhibit "Warfare and Violent Conflict" located at WFU]
+	[Sale: Not for sale, only on exhibit]
+	[Cursed: No]
+	[Website: https://moa.wfu.edu/2017/04/bontoc-axe/]
+
+-Turkey
+   > The Mausoleum at Halicarnassus / The Chariot Group
+	[Timeline: 350BC (circa)]
+	[Civilization: Classical Greek (480BC - 323BC)]
+	[Origin Location: Mausoleum of Halikarnassos in present day Bodrum, Turkey]
+	[Museum: The British Museum in London]
+	[For sale: No, but Greeks? have asked for this back and been denied, *angry protesters always in front of artifact*]
+	[Sale: No]
+	[Cursed: No]
+	[Website: http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=460575&partId=1&searchText=Halikarnassos&page=3]
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+AFRICA 
+*country: 
+-Egypt
+   >Isis Figure
+	[Timeline: Late Dynastic Period(roughly 700-300 BCE)]
+	[Civilization: Saite Dynasty? through Alexander the Great]
+	[Origin location: A fertility figure from the Ancient Mediterranean]
+	[Museum: Figure is one of three representing Isis which went on display at Museum of Anthropology at WFU in a May 12th exhibit]
+	[^Not for sale, from a preservation museum in Winston Salem, NC]
+	[cursed: No]
+	[Website: https://moa.wfu.edu/2018/05/isis-figure/]
+
+   >The Rosetta Stone 
+	[Timeline: Ptolemaic Period (196 BC)]
+	[Civilization: During conquest of Egypt by Alexander the Great]
+	[Origin Location: Fort Julien in Rashid, Egypt]
+	[Museum: The British Museum in London]
+	[Sale: No, but Egypt has repeatedly asked for this priceless artifact back]
+	[cursed: No, but contains keys to deciphering hieroglyphics]
+	[Website: http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=117631&partId=1&searchText=rosetta+stone+&page=1]
+
+   >Bust of Queen Nefertiti
+	[Timeline: 1340 BC created by court sculptor Thutmose]
+	[Civilization: New Kingdom, Dynasty 18?]
+	[Origin Location: Amarna, Egypt]
+	[Museum: Neues Museum in Museum Island in Berlin, Germany ]
+	[Sale: No. Egypt has asked for this back and been denied on the grounds that the artifact is too sensitive to transport]
+	[cursed: No]
+	[Website: http://www.egyptian-museum-berlin.com/c53.php]
+
+-Democratic Republic of the Congo (Central Africa)
+   >Initiation Mask
+	[Timeline: Oral tradition suggests they [Yaka tribe] migrated to their current location in 16th century]
+	[Civilization: Yaka tribe/people (16th century - present century)]
+	[Origin Location: Yaka people currently reside  in southwestern Democratic Replubic of the Congo area(b/t Kwango River and Wamba River)]
+	[Museum: Professor Deacon's Cultural Cabinet in WFU]
+	[Museum is free to enter, donations accepted, don't believe artifacts are for sale, in Winston Salem, NC]
+	[Cursed: The masks each have different functions, some serve to ward off evil spirits or spells whilst others 
+	assure the future fertility of a young initiate. They also frighten the crowd, cure illnesses and cast evil spells (YES)]
+	[Website: https://moa.wfu.edu/2017/05/initiation-mask/]
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+NORTH AMERICA 
+*country: 
+-New Mexico:
+   > Zuni Fetish
+	[Timeline: Has been inhabited by Zuni since last millenium B.C.]
+	[Civilization: Native people of Zuni Pueblo (The Zuni) (This specific figure made by Zuni artist Otis Neecy in 1980]
+	[Origin location: Zuni Pueblo, New Mexico]
+	[Museum:  Figure made by Zuni person artist held at Museum of Anthropology at WFU]
+	[^Not for sale, from preservation museum in Winston Salem, NC]
+	[Cursed: Hmm... Fetish figures are believed to harness the spirit of the animals depicted, so maybe? I'm gonna say yes.]
+	[Website: https://moa.wfu.edu/2017/08/zuni-fetish/]
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+SOUTH AMERICA 
+*country: 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+AUSTRALIA 
+*country: 
+	
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+EUROPE 
+*country: 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+ANTARCTICA
+*country: 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------

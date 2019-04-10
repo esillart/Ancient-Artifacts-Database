@@ -1,0 +1,14 @@
+to Enter: 
+
+mysql -h cop4710.cs.fsu.edu -u sillart -p
+
+
+Enter this password for Database: Q3i8.mP4yC-v
+
+then use command:
+
+use sillartdb
+
+then to show tables:
+
+show tables;

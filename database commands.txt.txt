@@ -1,0 +1,52 @@
+CREATE TABLE Discovery (
+What_Discovered VARCHAR(100),
+Where_Discovered VARCHAR(50),
+Time_Period VARCHAR(50),
+PRIMARY KEY (What_Discovered)
+);
+
+CREATE TABLE Artifact (
+Artifact_ID INT, 
+Artifact_Name VARCHAR(100),
+Repository_Name VARCHAR(100),
+Location_Found VARCHAR(50),
+Supernatural BOOL, 
+Material VARCHAR(50),
+PRIMARY KEY (Artifact_ID),
+FOREIGN KEY (Artifact_Name) REFERENCES Discovery (What_Discovered)
+);
+
+CREATE TABLE Repository (
+Repository_Name VARCHAR(100),
+Repository_Location VARCHAR(50),
+Repository_Type VARCHAR(30),
+PRIMARY KEY (Repository_Name)
+);
+ 
+
+CREATE TABLE Culture (
+Culture_Name VARCHAR(50), 
+Culture_Location VARCHAR (50),
+Culture_Time_Period VARCHAR(50), 
+PRIMARY KEY (Culture_Name),
+FOREIGN KEY (Culture_Time_Period) REFERENCES Discovery(Time_Period)
+);
+
+CREATE TABLE Supernatural (
+Artifact_ID INT, 
+Cursed BOOL,
+Good_Fortune BOOL, 
+Spirited BOOL,
+Sacred BOOL,
+PRIMARY KEY (Artifact_ID),
+FOREIGN KEY (Artifact_ID) REFERENCES Artifact (Artifact_ID)
+);
+
+CREATE TABLE Specialty (
+Artifact_ID INT,
+Amount VARCHAR(10),
+Relocated BOOL,
+Status VARCHAR(20),
+PRIMARY KEY (Artifact_ID),
+FOREIGN KEY (Artifact_ID) REFERENCES Artifact (ARTIFACT_ID)
+);

@@ -1,0 +1,47 @@
+                      <a href="https://www.w3schools.com"><li>w3schools</li></a><br>
+                      
+
+
+			<a href="http://collections.si.edu/search/detail/edanmdm:fsg_F1986.23?q=&fq=p.edanmdm.indexedstructured.exhibition.building%3A%22Sackler%22&fq=onphysicalexhibit%3AYes&record=54&hlterm="><li>Queen as the Goddess Prajnaparamita</li></a><br>
+
+			<a href="https://core.tdar.org/image/385098/1001-style-iii-bowl-from-mitchell"><li>Style III Bowl From Mitchell</li></a><br>
+
+
+			<a href="https://core.tdar.org/image/382439/10068-style-iii-bowl-from-swarts"><li>Style III Bowl From Swarts</li></a><br>
+
+			<a href="https://www.metmuseum.org/art/collection/search/316581?sortBy=Relevance&amp;deptids=5&amp;ft=*&amp;offset=0&amp;rpp=20&amp;pos=1"><li>Altar to the Hand (Ikegobo)</li></a><br>
+
+			<a href="https://www.metmuseum.org/art/collection/search/316602?sortBy=Relevance&amp;deptids=5&amp;ft=*&amp;offset=0&amp;rpp=20&amp;pos=7"><li>Altar Ring</li></a><br>
+
+			<a href="https://www.metmuseum.org/art/collection/search/312608?sortBy=Relevance&amp;deptids=5&amp;ft=*&amp;offset=0&amp;rpp=20&amp;pos=20"><li>Monkey Vessel</li></a><br>
+
+
+			a href="https://www.w3schools.com"><li>w3schools</li></a><br>
+
+                      <li>Decorated Ware Jar Depicting Ungulates and Boats  with Human Figures: https://www.metmuseum.org/art/collection/search/545755</li><br>
+
+                      <li>Poppy Fields near Argenteuil: https://www.metmuseum.org/art/collection/search/438004?sortBy=Relevance&amp;who=Monet%2c+Claude%24Claude+Monet&amp;ft=Monet&amp;offset=0&amp;rpp=20&amp;pos=3</li><br>
+
+                      <li>The Royal Acquaintances Memi and Sabu: https://www.metmuseum.org/toah/works-of-art/48.111/</li><br>
+
+                      <li>Bronze Plaque of Mithras slaying the bull: https://www.metmuseum.org/art/collection/search/256570?sortBy=Relevance&amp;high=on&amp;ft=*&amp;offset=0&amp;rpp=20&amp;pos=12</li><br>
+
+                      <li>Terracotta column-krater (bowl for mixing wine and water): https://www.metmuseum.org/art/collection/search/253349?sortBy=Relevance&amp;high=on&amp;ft=*&amp;offset=0&amp;rpp=20&amp;pos=17</li><br>
+
+                      <li>Coffin of Khnumnakht: https://www.metmuseum.org/art/collection/search/544326?sortBy=Relevance&amp;high=on&amp;ft=*&amp;offset=20&amp;rpp=20&amp;pos=37</li><br>
+
+                      <li>Terracotta female figurine: https://www.metmuseum.org/art/collection/search/253495</li><br>
+
+                      <li>The Peplos Kore: https://www.theacropolismuseum.gr/en/content/korai-acropolis</li><br>
+
+                      <li>The Antenor Kore: https://www.theacropolismuseum.gr/en/content/korai-acropolis</li><br>
+
+                      <li>The Euthydikos Kore: https://www.theacropolismuseum.gr/en/content/korai-acropolis</li><br>
+
+                      <li>The Granite Sphinx of Ramses II: https://www.penn.museum/collections/highlights/egyptian/sphinx.php</li><br>
+
+                      <li>Queen Puabi's Headdress: https://www.penn.museum/collections/highlights/neareast/puabi.php</li><br>
+
+                      <li>The Hasanlu Lovers: https://www.penn.museum/collections/highlights/physicalanthro/the-lovers.php</li><br>
+
+                      <li>Stela 14: https://www.penn.museum/collections/highlights/american/stela14.php</li><br>    

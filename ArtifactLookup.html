@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Artifacts Database</title>
+        <link rel="stylesheet" href="Artifact.css">
+        <script src="dropdowninsert.php"></script>
+    </head>
+    
+    <body>
+        <div id="whole"><!-- This div is for the entire main page, everything is containted in this -->
+            
+            <img src="./homeimg.jpg" alt="Artifacts Home" width=100%> <!--Placeholder header image-->
+            
+            <nav> <!-- Menu Container -->
+                
+                    <a href="ArtifactHome.html" target="_self">Home</a>
+                    <a href="ArtifactLookup.html" target="_self">Artifact Lookup</a>
+                    <a href="ArtifactDirectory.html" target="_self">Directory</a>
+                    <a href="ArtifactSources.html" target="_self">Sources</a>
+            </nav>
+            
+            <div id="LookupForm">   <!--This is where the search form will go-->
+                <h2>Search Database</h2>
+                <form name="filter" method="post" action="./results.php">
+                      Artifact Name: 
+                          <input type="text" name= "AName"> <br>
+                      Continent Name:
+                    <select name="Continent" size=1>
+                            <option value="Select"> Select </option>
+                            <option value="North America">North America</option>
+                            <option value="South America">South America</option>
+                            <option value="Europe">Europe</option>
+                            <option value="Africa">Africa</option>
+                            <option value="Asia">Asia</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Antarctica">Antarctica</option>
+                    </select>
+                
+                    Country:
+                    <input type="text" name= "CName"> <br>
+                    
+                    Archaic Period: 
+                    <select name="APeriod" size=1>
+                        <option value="Select">Select</option>
+                        <option value="1st Century B.C - A.D 7th Century">1st Century B.C. - A.D. 7th Century</option>
+                        <option value="Early 10th Century">Early 10th Century </option>
+                        <option value="16th Century">16th Century </option>
+                         <option value="Late 16th Century">Late 16th Century </option>
+                        <option value="17-19th Century">17-19th Century </option>
+                        <option value="18th Century">18th Century </option>
+                        <option value="18th Dynasty of Egypt">18th Dynasty of Egypt </option>
+                         <option value="Early 19th Century">Early 19th Century </option>
+                        <option value="19th Century">19th Century </option>
+                         <option value="Late 19th Century">Late 19th Century </option>
+                         <option value="Early 20th Century">Early 20th Century </option>
+                        <option value="Angkor Period">Angkor Period </option>
+                        <option value="Archaeological Culture">Archaeological Culture </option>
+                        <option value="Archaic Period">Archaic Period </option>
+                        <option value="Civil War">Civil War </option>
+                        <option value="Classical Greek">Classical Greek </option>
+                        <option value="Edo Period">Edo Period </option>
+                        <option value="First Dynasty of Ur">First Dynasty of Ur </option>
+                        <option value="Last Millenium B.C.">Last Millenium B.C. </option>
+                        <option value="Late Classic Period">Late Classic Period </option>
+                        <option value="Late Dynastic Period">Late Dynastic Period </option>
+                        <option value="Malla Dynasty">Mall Dynasty </option>
+                        <option value="Middle Kingdom">Middle Kingdom </option>
+                        <option value="Mid-Imperial">Mid-Imperial </option>
+                        <option value="Mycenaean Culture">Mycenaean Culture </option>
+                        <option value="Northern Qi Dynasty">Northern Qi Dynasty </option>
+                        <option value="Old Kingdom">Old Kingdom </option>
+                        <option value="Period IVB">Period IVB </option>
+                        <option value="Pharaonic Period">Pharaonic Period </option>
+                        <option value="Predynastic">Predynastic </option>
+                        <option value="Ptolemaic Period">Ptolemaic Period</option>
+                        <option value="Qing Dynasty">Qing Dynasty </option>
+                    </select> <br>
+                        
+                    Repository Type:
+                        <select name="RType" size=1>
+                            <option value="Select">Select</option>
+                            <option value="archaeological museum">Archaeological Museum</option>
+                            <option value="art gallery">Art Gallery</option>
+                            <option value="art museum">Art Museum</option>
+                            <option value="free exhibit">Free Exhibit</option>
+                            <option value="national museum">National Museum</option>
+                            <option value="private exhibit">Private Exhibit</option>
+                            <option value="private museum">private Museum</option>
+                            <option value="public museum">Public Museum</option>
+                            <option value="student exhibit">Student Exhibit</option>
+                                            
+                    </select> <br>    
+                                      
+                    Material:
+                        <select name="Material" size=1>
+                            <option value="Select">Select</option>
+                            <option value="Basalt">Basalt</option>
+                            <option value="Brass">Brass</option>
+                            <option value="Bronze">Bronze</option>
+                            <option value="Ceramic">Ceramic</option>
+                            <option value="Gilded Copper Alloy">Gilded Copper Alloy</option>
+                            <option value="Gilt Copper">Gilt Copper</option>
+                            <option value="Gold">Gold</option>
+                            <option value="Granite">Granite</option>
+                            <option value="Lead">Lead</option>
+                            <option value="Leather">Leather</option>
+                            <option value="Limestone">Limestone</option>
+                            <option value="Marble">Marble</option>
+                            <option value="Oil on Canvas">Oil on Canvas</option>
+                            <option value="Pottery">Pottery</option>
+                            <option value="Skeleton">Skeleton</option>
+                            <option value="Steel">Steel</option>
+                            <option value="Stone">Stone</option>
+                            <option value="Terracotta">Terracotta</option>
+                            <option value="Turquoise">Turquoise</option>
+                            <option value="Wood">Wood</option>
+                    </select> <br>
+                        
+                    Specialty:
+                            <input type="radio" name="Specialty" value="original"> Original
+                            <input type="radio" name="Specialty" value="replication"> Replicated
+                        <br>
+                    Supernatural: 
+                            <input type="radio" name="Supernatural" value="1"> Yes
+                            <input type="radio" name="Supernatural" value="0"> No
+                        <br>
+                        
+                    
+                
+                     <!-- Reset/Submit Button-->
+                    <br>
+                    <button>Submit</button>
+                            
+                      </form>
+                <br>
+                <!--Insert Form-->
+                <div id="update">
+                    <h2>Update Into Database</h2>
+                    <form name="updatedb" method="post" action="./update.php">
+
+                        <div id="updateLeft">   <!-- keep dropdown on left side of page -->
+                        Artifact Name:
+                            <input type="text" name="insertArt"> <br>
+
+                        </div>
+
+                        <div id="updateRight">   <!-- keep inserts on right side of page -->
+                            Artifact's New Repository: <input type="text" name="insertRepository"> <br>
+                            Artifact's New Location:  <input type="text" name="insertLocation"> <br>
+                            Repository type: <select name="insertRepType" size=1>
+                            <option value="Select">Select</option>
+                            <option value="archaeological museum">Archaeological Museum</option>
+                            <option value="art gallery">Art Gallery</option>
+                            <option value="art museum">Art Museum</option>
+                            <option value="free exhibit">Free Exhibit</option>
+                            <option value="national museum">National Museum</option>
+                            <option value="private exhibit">Private Exhibit</option>
+                            <option value="private museum">private Museum</option>
+                            <option value="public museum">Public Museum</option>
+                            <option value="student exhibit">Student Exhibit</option>
+                                            
+                    </select> <br>  
+                            <button>Submit</button>
+                        </div>
+                    </form>
+
+                    <br>
+                </div>
+                
+                <br>
+
+                <form name="insertdb" method="post" action="./insert.php"><!--INSERT FORM !!!!!!!-->
+                    <h2>Insert Into Database</h2>
+                        Artifact Name: 
+                          <input type="text" name= "insName"> <br>
+                
+                    Location Found:
+                    <input type="text" name= "insLocation"> <br>  
+                    
+                    Repository Name:
+                    <input type="text" name= "insRep"> <br>
+                    
+                                      
+                    Material:
+                        <select name="insMaterial" size=1>
+                            <option value="Select">Select</option>
+                            <option value="Basalt">Basalt</option>
+                            <option value="Brass">Brass</option>
+                            <option value="Bronze">Bronze</option>
+                            <option value="Ceramic">Ceramic</option>
+                            <option value="Gilded Copper Alloy">Gilded Copper Alloy</option>
+                            <option value="Gilt Copper">Gilt Copper</option>
+                            <option value="Gold">Gold</option>
+                            <option value="Granite">Granite</option>
+                            <option value="Lead">Lead</option>
+                            <option value="Leather">Leather</option>
+                            <option value="Limestone">Limestone</option>
+                            <option value="Marble">Marble</option>
+                            <option value="Oil on Canvas">Oil on Canvas</option>
+                            <option value="Pottery">Pottery</option>
+                            <option value="Skeleton">Skeleton</option>
+                            <option value="Steel">Steel</option>
+                            <option value="Stone">Stone</option>
+                            <option value="Terracotta">Terracotta</option>
+                            <option value="Turquoise">Turquoise</option>
+                            <option value="Wood">Wood</option>
+                            <option value="Wood">Other</option>
+
+                    </select> <br>
+                        
+                    Supernatural: 
+                            <input type="radio" name="insSupernatural" value="1"> Yes
+                            <input type="radio" name="insSupernatural" value="0"> No
+                        <br>
+                    
+                    <!--Discovery-->
+                    Time Period:
+                        <input type="text" name= "insPeriod"> <br>
+                    Continent:
+                        <input type="text" name= "insCont"> <br>
+                   <!-- Longitude:
+                        <input type="text" name="insLon"><br>
+                    Latitude:
+                        <input type="text" name="insLat"><br>
+                       !>                                    
+                    <!--repository-->
+                        Repository Location: <input type="text" name= "insrepLocation"> <br>
+                        Repository Type: <input type="text" name= "insrepType"> <br>
+                    <!--Supernatural-->
+                    Cursed:
+                            <input type="radio" name="insCursed" value="1"> Yes
+                            <input type="radio" name="insCursed" value="0"> No
+                        <br>
+                    Good Fortune: 
+                            <input type="radio" name="insFortune" value="1"> Yes
+                            <input type="radio" name="insFortune" value="0"> No
+                        <br>
+                    Spirited: 
+                            <input type="radio" name="insSpirit" value="1"> Yes
+                            <input type="radio" name="insSpirit" value="0"> No
+                        <br>
+                    Sacred: 
+                            <input type="radio" name="insSacred" value="1"> Yes
+                            <input type="radio" name="insSacred" value="0"> No
+                        <br>
+                    Specialty: 
+                            <input type="radio" name="insAmount" value="one"> One
+                            <input type="radio" name="insAmount" value="many"> Many
+                        <br>
+                    Relocated: 
+                            <input type="radio" name="insRelocate" value="1"> Yes
+                            <input type="radio" name="insRelocate" value="0"> No
+                        <br>
+                    Status: 
+                            <input type="radio" name="insStatus" value="original"> Original
+                            <input type="radio" name="insStatus" value="replication"> Replication
+                        <br>
+                    
+                     <!-- Reset/Submit Button-->
+                    <br>
+                    <button>Submit</button> <!--INSERT TABLE END-->
+                </form>
+                
+                <form name="deletedb" method="post" action="./delete.php"><!--DELETE FORM !!!!!!!-->
+                    <h2>Delete From Database</h2>
+                        Artifact Name: <input type="text" name="deleteArt"> <br>
+                    <button>Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+

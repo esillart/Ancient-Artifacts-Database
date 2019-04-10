@@ -1,0 +1,39 @@
+1, many,0,replication
+2,many ,0,replication
+3,one,1, original
+4,many,0,replication
+5,one,1, original
+6,one,1,original
+7,many,0,replication
+8,many,0,replication
+9,many,0,original
+10,many,1,replication
+11,many,0,replication
+12,one,0,original
+13,one,0,original
+14,one,0,original
+15,one,1,replication
+16,one,1,original
+17,one,1,original
+18,one,1,original
+19,one,1,original
+20,one,1,original
+21,many,0,original
+22,many,0,original
+23,one,0,original
+24,one,0,original
+25,many,0,replication
+26,many,0,replication
+27,one,1,original
+28,one,1,original
+29,one ,1,original 
+30,one,1,original
+31,one,1,original
+32,many,0,replication
+33,one,0,original 
+34,one,0,original
+35,one,0,original
+36,one,1,original
+37,one,1,original
+38,one,1,original 
+39,one,1,original

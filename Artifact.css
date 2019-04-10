@@ -1,0 +1,199 @@
+/*
+Color Scheme is #3 on this website
+http://blog.visme.co/website-color-schemes/
+*/
+
+body {
+    
+    background-color: #FBEEC1;
+    font-family: monospace;
+    margin: 0px;
+    height: 100%;
+}
+
+
+#whole {
+    margin: auto;
+    display: block;
+    width: 95%;
+    float: center;
+}
+
+#banner {
+    width:100%;
+    margin: 0px;
+    margin-bottom: -22px;
+}
+
+#homeimage { /*This is just used for the <p> image on the home page*/
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    overflow:auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    
+}
+
+/*NAVIGATION BAR*/
+
+nav {
+    display: block;    
+    /*border: solid 2px black;
+    border-bottom: none;*/
+}
+
+nav a {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: monospace;
+    color: forestgreen;
+    padding: 0px 4%;
+    margin: 6px 0%;
+    text-decoration: none;
+    
+    
+}
+nav a:hover{
+    opacity: .8;
+    text-decoration: underline;
+}
+
+
+
+#content {
+    height: 500px;
+    width:100%;
+    /*border: 2px solid black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;*/
+    overflow:auto;
+    width: 90%;
+    margin:auto;
+}
+#HomeLeftSide {
+    display:block;
+    float:left;
+    overflow: auto;
+    width:50%;
+    border: 1px solid #BC986A;
+    border-radius: 5%;
+    background-color: #DAAD86;
+    margin:20px;
+
+}
+#HomeRightSide {
+    Display:block;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+/*Jargon page below*/
+
+#Jargon{
+}
+#Jargon pre{
+    padding: 10px;
+    border-top: 2px dashed forestgreen;
+    margin-top: 0px;
+    word-wrap: break-word;
+
+    
+}
+
+/*Lookup Forma Page*/
+#LookupForm {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: #D4E6F1;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
+}
+
+form {
+    font-style: italic;
+}
+
+input:focus {
+    background-color: lightyellow;
+}
+
+/*Sources Page*/
+#sites {
+    padding: 0px 10px;
+    border: 2px solid black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+/*clear block class, used for every page*/
+.clearblock {
+    clear: both;
+}
+
+
+/*--------------------FADE IN STUFF---------------------*/
+@keyframes fadeIn
+  to { 
+     opacity: 1; 
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity:.05;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+
